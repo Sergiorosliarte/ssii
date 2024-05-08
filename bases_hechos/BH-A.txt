@@ -1,0 +1,9 @@
+6
+mas30a, FC=-1
+menos30a, FC=1
+mas50p, FC=-1
+menos50p, FC=1
+corteDePeso, FC=0.65
+masMitadKO, FC=1
+Objetivo
+retirarse

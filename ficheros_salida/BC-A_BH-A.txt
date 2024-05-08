@@ -1,0 +1,32 @@
+Base de conocimientos : .\\..\..\\bases_conocimiento\\BC-A.txt
+Base de hechos : .\\..\..\\bases_hechos\\BH-A.txt
+Objetivo : retirarse
+
+R6: Si riesgoEnf Entonces retirarse, FC=1
+R5: Si lesiones Entonces riesgoEnf, FC=0.75
+R4: Si corteDePeso y estAgresivo Entonces lesiones, FC=0.6
+R3: Si masMitadKO Entonces estAgresivo, FC=1
+	Caso 1: masMitadKO, FCs=1. Resultado=1
+	Caso 3: estAgresivo, FC=1 * 1 = 1
+estAgresivo, FC=1
+	Caso 1: corteDePeso y estAgresivo, FCs=0.65, 1. Resultado=0.65
+	Caso 3: lesiones, FC=0.65 * 0.6 = 0.39
+lesiones, FC=0.39
+	Caso 1: lesiones, FCs=0.39. Resultado=0.39
+	Caso 3: riesgoEnf, FC=0.39 * 0.75 = 0.2925
+riesgoEnf, FC=0.2925
+	Caso 1: riesgoEnf, FCs=0.2925. Resultado=0.2925
+	Caso 3: retirarse, FC=0.2925 * 1 = 0.2925
+R7: Si experimentado Entonces retirarse, FC=0.3
+R1: Si mas30a o mas50p Entonces experimentado, FC=0.99
+	Caso 1: mas30a o mas50p, FCs=-1, -1. Resultado=-1
+	Caso 3: experimentado, FC=-1 * 0.99 = 0
+R2: Si menos30a y menos50p Entonces experimentado, FC=-0.55
+	Caso 1: menos30a y menos50p, FCs=1, 1. Resultado=1
+	Caso 3: experimentado, FC=1 * -0.55 = -0.55
+Caso 2: experimentado, FC=-0.55
+	Caso 1: experimentado, FCs=-0.55. Resultado=-0.55
+	Caso 3: retirarse, FC=-0.55 * 0.3 = 0
+Caso 2: retirarse, FC=0.2925
+
+Objetivo: retirarse,FC=0.2925

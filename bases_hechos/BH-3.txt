@@ -1,0 +1,10 @@
+7
+ant2o3, FC=1
+antMas3, FC=-1
+cond2o3, FC=-1
+condMas3, FC=1
+noSolo, FC=-1
+joven, FC=0
+alcohol, FC=0.5
+Objetivo
+causante

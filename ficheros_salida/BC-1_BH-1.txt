@@ -1,0 +1,20 @@
+Base de conocimientos : .\\..\..\\bases_conocimiento\\BC-1.txt
+Base de hechos : .\\..\..\\bases_hechos\\BH-1.txt
+Objetivo : h1
+
+R1: Si h2 o h3 Entonces h1, FC=0.5
+R3: Si h5 y h6 Entonces h3, FC=0.7
+	Caso 1: h5 y h6, FCs=0.3, 0.9. Resultado=0.3
+	Caso 3: h3, FC=0.3 * 0.7 = 0.21
+R4: Si h7 Entonces h3, FC=-0.5
+	Caso 1: h7, FCs=0.5. Resultado=0.5
+	Caso 3: h3, FC=0.5 * -0.5 = -0.25
+Caso 2: h3, FC=-0.0506329
+	Caso 1: h2 o h3, FCs=0.6, -0.0506329. Resultado=0.6
+	Caso 3: h1, FC=0.6 * 0.5 = 0.3
+R2: Si h4 Entonces h1, FC=1
+	Caso 1: h4, FCs=0.6. Resultado=0.6
+	Caso 3: h1, FC=0.6 * 1 = 0.6
+Caso 2: h1, FC=0.72
+
+Objetivo: h1,FC=0.72

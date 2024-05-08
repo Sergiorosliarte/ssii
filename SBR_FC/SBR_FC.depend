@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1701024396 source:c:\users\alumno\downloads\bases_conocimiento\sbr_fc\hecho.cpp
+	"Hecho.h"
+
+1701544216 c:\users\alumno\downloads\bases_conocimiento\sbr_fc\hecho.h
+	<iostream>
+
+1701284244 source:c:\users\alumno\downloads\bases_conocimiento\sbr_fc\regla.cpp
+	"Regla.h"
+
+1701544164 c:\users\alumno\downloads\bases_conocimiento\sbr_fc\regla.h
+	<iostream>
+	<vector>
+
+1701767121 source:c:\users\alumno\downloads\bases_conocimiento\sbr_fc\parseador.cpp
+	<fstream>
+	<string>
+	"Parseador.h"
+
+1701544296 c:\users\alumno\downloads\bases_conocimiento\sbr_fc\parseador.h
+	<iostream>
+	<vector>
+	"Hecho.h"
+	"Regla.h"
+
+1702300870 source:c:\users\alumno\downloads\practica2\practica2\sbr_fc\hecho.cpp
+	"Hecho.h"
+
+1702300870 c:\users\alumno\downloads\practica2\practica2\sbr_fc\hecho.h
+	<iostream>
+
+1702300870 source:c:\users\alumno\downloads\practica2\practica2\sbr_fc\parseador.cpp
+	<fstream>
+	<string>
+	"Parseador.h"
+
+1702300870 c:\users\alumno\downloads\practica2\practica2\sbr_fc\parseador.h
+	<iostream>
+	<vector>
+	"Hecho.h"
+	"Regla.h"
+
+1702300870 c:\users\alumno\downloads\practica2\practica2\sbr_fc\regla.h
+	<iostream>
+	<vector>
+
+1702300870 source:c:\users\alumno\downloads\practica2\practica2\sbr_fc\regla.cpp
+	"Regla.h"
+

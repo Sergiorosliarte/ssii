@@ -1,0 +1,16 @@
+Base de conocimientos : .\\..\..\\bases_conocimiento\\BC-2.txt
+Base de hechos : .\\..\..\\bases_hechos\\BH-2EST.txt
+Objetivo : ganaEST
+
+R1: Si arbMod Entonces ganaEST, FC=0.4
+	Caso 1: arbMod, FCs=1. Resultado=1
+	Caso 3: ganaEST, FC=1 * 0.4 = 0.4
+R4: Si publicoEqui Entonces ganaEST, FC=-0.55
+	Caso 1: publicoEqui, FCs=0.35. Resultado=0.35
+	Caso 3: ganaEST, FC=0.35 * -0.55 = -0.1925
+R6: Si les2pivEST Entonces ganaEST, FC=-0.6
+	Caso 1: les2pivEST, FCs=1. Resultado=1
+	Caso 3: ganaEST, FC=1 * -0.6 = -0.6
+Caso 2: ganaEST, FC=-0.461667
+
+Objetivo: ganaEST,FC=-0.461667

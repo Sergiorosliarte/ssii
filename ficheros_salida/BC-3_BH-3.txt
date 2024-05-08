@@ -1,0 +1,30 @@
+Base de conocimientos : .\\..\..\\bases_conocimiento\\BC-3.txt
+Base de hechos : .\\..\..\\bases_hechos\\BH-3.txt
+Objetivo : causante
+
+R5: Si experimentado y noSolo Entonces causante, FC=-0.5
+R1: Si ant2o3 Entonces experimentado, FC=0.5
+	Caso 1: ant2o3, FCs=1. Resultado=1
+	Caso 3: experimentado, FC=1 * 0.5 = 0.5
+R2: Si antMas3 Entonces experimentado, FC=0.9
+	Caso 1: antMas3, FCs=-1. Resultado=-1
+	Caso 3: experimentado, FC=-1 * 0.9 = 0
+Caso 2: experimentado, FC=0.5
+	Caso 1: experimentado y noSolo, FCs=0.5, -1. Resultado=-1
+	Caso 3: causante, FC=-1 * -0.5 = -0
+R6: Si cansado Entonces causante, FC=0.5
+R3: Si cond2o3 Entonces cansado, FC=0.5
+	Caso 1: cond2o3, FCs=-1. Resultado=-1
+	Caso 3: cansado, FC=-1 * 0.5 = 0
+R4: Si condMas3 Entonces cansado, FC=1
+	Caso 1: condMas3, FCs=1. Resultado=1
+	Caso 3: cansado, FC=1 * 1 = 1
+Caso 2: cansado, FC=1
+	Caso 1: cansado, FCs=1. Resultado=1
+	Caso 3: causante, FC=1 * 0.5 = 0.5
+R7: Si joven y alcohol Entonces causante, FC=0.7
+	Caso 1: joven y alcohol, FCs=0, 0.5. Resultado=0
+	Caso 3: causante, FC=0 * 0.7 = 0
+Caso 2: causante, FC=0.5
+
+Objetivo: causante,FC=0.5

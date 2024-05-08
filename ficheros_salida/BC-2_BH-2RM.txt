@@ -1,0 +1,16 @@
+Base de conocimientos : .\\..\..\\bases_conocimiento\\BC-2.txt
+Base de hechos : .\\..\..\\bases_hechos\\BH-2RM.txt
+Objetivo : ganaRM
+
+R2: Si arbMod Entonces ganaRM, FC=0.75
+	Caso 1: arbMod, FCs=1. Resultado=1
+	Caso 3: ganaRM, FC=1 * 0.75 = 0.75
+R3: Si publicoMayEST Entonces ganaRM, FC=-0.4
+	Caso 1: publicoMayEST, FCs=0.65. Resultado=0.65
+	Caso 3: ganaRM, FC=0.65 * -0.4 = -0.26
+R5: Si les2pivRM y visitanteRM Entonces ganaRM, FC=-0.1
+	Caso 1: les2pivRM y visitanteRM, FCs=1, 1. Resultado=1
+	Caso 3: ganaRM, FC=1 * -0.1 = -0.1
+Caso 2: ganaRM, FC=0.624625
+
+Objetivo: ganaRM,FC=0.624625

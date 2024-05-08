@@ -1,0 +1,8 @@
+7
+R1: Si mas30a o mas50p Entonces experimentado, FC=0.99
+R2: Si menos30a y menos50p Entonces experimentado, FC=-0.55
+R3: Si masMitadKO Entonces estAgresivo, FC=1
+R4: Si corteDePeso y estAgresivo Entonces lesiones, FC=0.6
+R5: Si lesiones Entonces riesgoEnf, FC=0.75
+R6: Si riesgoEnf Entonces retirarse, FC=1
+R7: Si experimentado Entonces retirarse, FC=0.3
